@@ -25,17 +25,17 @@ const numberToSum = userNumber.value.trim();
 
 
 console.log(numberToSum);
-console.log(numberToSum.lenght);
+console.log(numberToSum.length);
 
 //validazione 
 
-if (numberToSum.lenght < 4 || numberToSum.lenght > 4){
+if (numberToSum.length < 4 || numberToSum.length > 4){
     result.innerText = ' Hai inserito un valore errato';
 }
 else{
     let sum = 0;
-    for(let i = 0 ; i < numberToSum.lenght ; i++ ){
-        sum += numberToSum[i];
+    for(let i = 0 ; i < numberToSum.length ; i++ ){
+        sum += parseInt(numberToSum[i]);
     }
     result.innerText = ` La somma dei tuoi valori è: ${sum}`;
 }
