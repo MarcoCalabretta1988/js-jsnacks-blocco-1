@@ -23,9 +23,9 @@ button.addEventListener('click' , function(){
 
 const numberToSum = userNumber.value.trim();
 
-const lunghezza = numberToSum.lenght;
+
 console.log(numberToSum);
-console.log(lunghezza);
+console.log(numberToSum.lenght);
 
 //validazione 
 
